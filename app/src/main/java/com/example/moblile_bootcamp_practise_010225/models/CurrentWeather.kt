@@ -6,7 +6,7 @@ data class CurrentWeather(
     val currentTemp: Double,
     val feelsLikeTemp: Double,
     val conditionText: String,
-    val conditionIcon: String,
+    val conditionIcon: Int,
     val lastUpdateInfo: String,
     val humidity: Int,
     val pressure: Double,

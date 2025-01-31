@@ -17,8 +17,8 @@ import com.example.moblile_bootcamp_practise_010225.ui.theme.Moblile_bootcamp_pr
 import com.example.moblile_bootcamp_practise_010225.ui.theme.assets.SampleData
 
 class MainActivity : ComponentActivity() {
-    val API = BuildConfig.MAPS_API //Secrets gradle plugin usage
-    val days = SampleData.dayWeatherSample // Sample values usage
+    val API = BuildConfig.MAPS_API //Secrets gradle plugin usage example
+    val days = SampleData.dayWeatherSample // Sample values usage example
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
